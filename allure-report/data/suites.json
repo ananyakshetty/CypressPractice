@@ -1,0 +1,237 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "API Testing",
+    "children" : [ {
+      "name" : "GET - read",
+      "uid" : "b0d2225e578f41f2",
+      "parentUid" : "e39d63ab86bea8d7d191dd2b55a5cf81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599854958,
+        "stop" : 1647599856536,
+        "duration" : 1578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e39d63ab86bea8d7d191dd2b55a5cf81"
+  }, {
+    "name" : "Intercept with simple intercept",
+    "children" : [ {
+      "name" : "Test Api with simple Intercept",
+      "uid" : "3f799a1602c7f0f9",
+      "parentUid" : "e19211d68061dda16fffdb605f9aa08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599863852,
+        "stop" : 1647599870530,
+        "duration" : 6678
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "mocking with intercept test with static response",
+      "uid" : "c85999202f6f2db0",
+      "parentUid" : "e19211d68061dda16fffdb605f9aa08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599870680,
+        "stop" : 1647599872484,
+        "duration" : 1804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "mocking with intercept test with dynamic fixture",
+      "uid" : "5182048eb9f6f41e",
+      "parentUid" : "e19211d68061dda16fffdb605f9aa08c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599872531,
+        "stop" : 1647599874303,
+        "duration" : 1772
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e19211d68061dda16fffdb605f9aa08c"
+  }, {
+    "name" : "Delete user request",
+    "children" : [ {
+      "name" : "Delete user test",
+      "uid" : "9b8827c06de0bdab",
+      "parentUid" : "07230fae7e26014aa1265007d7823d4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599880672,
+        "stop" : 1647599881603,
+        "duration" : 931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "07230fae7e26014aa1265007d7823d4a"
+  }, {
+    "name" : "HTTP Example",
+    "children" : [ {
+      "name" : "GET",
+      "uid" : "ac9aae1640b7fe6",
+      "parentUid" : "2fb0154ef7fdb521585b33ba44000798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599885053,
+        "stop" : 1647599886688,
+        "duration" : 1635
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "POST",
+      "uid" : "e68d468c57ca2dc1",
+      "parentUid" : "2fb0154ef7fdb521585b33ba44000798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599886721,
+        "stop" : 1647599887081,
+        "duration" : 360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2fb0154ef7fdb521585b33ba44000798"
+  }, {
+    "name" : "get api user tests",
+    "children" : [ {
+      "name" : "get users",
+      "uid" : "92631752ee2f56cc",
+      "parentUid" : "726be70cee12738d3c5567e63c8998a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599891111,
+        "stop" : 1647599891250,
+        "duration" : 139
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "get users by id",
+      "uid" : "11a9223b6e02c97c",
+      "parentUid" : "726be70cee12738d3c5567e63c8998a6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1647599891266,
+        "stop" : 1647599891267,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "726be70cee12738d3c5567e63c8998a6"
+  }, {
+    "name" : "Post user request",
+    "children" : [ {
+      "name" : "create user test",
+      "uid" : "446191e67387b369",
+      "parentUid" : "6fca3bfddb81ffe744da636de97954b1",
+      "status" : "failed",
+      "time" : {
+        "start" : 1647599898291,
+        "stop" : 1647599898733,
+        "duration" : 442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6fca3bfddb81ffe744da636de97954b1"
+  }, {
+    "name" : "check weather Information",
+    "children" : [ {
+      "name" : "Get Weather Information for city",
+      "uid" : "bb01e45816a7d566",
+      "parentUid" : "9a787b008cc2d1ab864caead22818727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599902030,
+        "stop" : 1647599903853,
+        "duration" : 1823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Get Weather Information for all cities",
+      "uid" : "7e443baafb2b954",
+      "parentUid" : "9a787b008cc2d1ab864caead22818727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599903894,
+        "stop" : 1647599906245,
+        "duration" : 2351
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9a787b008cc2d1ab864caead22818727"
+  } ]
+}

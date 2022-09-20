@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-05-09T16:49:47.456Z",
+    "end": "2022-05-09T16:50:40.186Z",
+    "duration": 52730,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "df114ced-5aaf-4ae3-9640-7d6242daee51",
+      "title": "",
+      "fullFile": "cypress/integration/RahulShetty/Test_framework.js",
+      "file": "cypress/integration/RahulShetty/Test_framework.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "99fe7d4c-91c9-4091-b946-c0e298d588e5",
+          "title": "Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testcase",
+              "fullTitle": "Test Suite Testcase",
+              "timedOut": null,
+              "duration": 52528,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var homePage = new _HomePage[\"default\"]();\nvar productsPage = new _Products[\"default\"]();\ncy.visit(Cypress.env('url') + '/angularpractice/');\nhomePage.getEditBox().type(this.data.name);\nhomePage.getGender().select(this.data.gender);\nhomePage.getTwoWayDataBinding().should('have.value', this.data.name);\nhomePage.getEditBox().should('have.attr', 'minlength', '2');\nhomePage.getEnterprunar().should('be.disabled');\nhomePage.getShopTab().click();\ncy.selectProduct('Blackberry');\ncy.selectProduct('Nokia');\nproductsPage.checkoutButton().click();\nvar sum = 0;\ncy.get('tr td:nth-child(4) strong').each(function ($e1, index, $list) {\n  cy.log($e1.text());\n  var actualText = $e1.text();\n  var res = actualText.split(\" \");\n  res = res[1].trim();\n  cy.log(res);\n  sum = Number(sum) + Number(res);\n}).then(function () {\n  cy.log(sum);\n});\ncy.get('h3 strong').then(function (element) {\n  var amount = element.text();\n  var res = amount.split(\" \");\n  var total = res[1].trim();\n  expect(Number(total)).to.eq(sum);\n});\nproductsPage.checkoutButton2().click();\nproductsPage.contryDropdown().type('India');\nproductsPage.countryResults().click();",
+              "err": {},
+              "uuid": "bd901597-7fbd-49f7-9e41-e2fd4c4979e5",
+              "parentUUID": "99fe7d4c-91c9-4091-b946-c0e298d588e5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bd901597-7fbd-49f7-9e41-e2fd4c4979e5"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 52528,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}

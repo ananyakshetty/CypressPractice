@@ -1,0 +1,316 @@
+{
+  "uid" : "9b8827c06de0bdab",
+  "name" : "Delete user test",
+  "fullName" : "Delete user test",
+  "historyId" : "0d067c36197873da346882a4c5bbfe23",
+  "time" : {
+    "start" : 1647599880672,
+    "stop" : 1647599881603,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log MNkjmjsqzk",
+      "time" : {
+        "start" : 1647599880694,
+        "stop" : 1647599880710,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "fixture (\"createuser\")",
+      "time" : {
+        "start" : 1647599880710,
+        "stop" : 1647599880741,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 201 https://gorest.co.in/public/v1/users",
+      "time" : {
+        "start" : 1647599880756,
+        "stop" : 1647599881154,
+        "duration" : 398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log {\"meta\":null,\"data\":{\"id\":21853,\"name\":\"Test Automation\",\"email\":\"MNkjmjsqzk@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}}",
+      "time" : {
+        "start" : 1647599881234,
+        "stop" : 1647599881255,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name**",
+      "time" : {
+        "start" : 1647599881255,
+        "stop" : 1647599881256,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21853,\n  \"name\": \"Test Automation\",\n  \"email\": \"MNkjmjsqzk@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name** of **Test Automation**",
+      "time" : {
+        "start" : 1647599881256,
+        "stop" : 1647599881256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Test Automation"
+      }, {
+        "name" : "expected",
+        "value" : "Test Automation"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **email**",
+      "time" : {
+        "start" : 1647599881256,
+        "stop" : 1647599881256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21853,\n  \"name\": \"Test Automation\",\n  \"email\": \"MNkjmjsqzk@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **email** of **MNkjmjsqzk@gmail.com**",
+      "time" : {
+        "start" : 1647599881256,
+        "stop" : 1647599881256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "MNkjmjsqzk@gmail.com"
+      }, {
+        "name" : "expected",
+        "value" : "MNkjmjsqzk@gmail.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **201** to equal **201**",
+      "time" : {
+        "start" : 1647599881256,
+        "stop" : 1647599881256,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "201"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log UserId: 21853",
+      "time" : {
+        "start" : 1647599881260,
+        "stop" : 1647599881272,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "DELETE 204 https://gorest.co.in/public/v1/users/21853",
+      "time" : {
+        "start" : 1647599881280,
+        "stop" : 1647599881446,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **204** to equal **204**",
+      "time" : {
+        "start" : 1647599881484,
+        "stop" : 1647599881484,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "204"
+      }, {
+        "name" : "expected",
+        "value" : "204"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 404 https://gorest.co.in/public/v1/users/21853",
+      "time" : {
+        "start" : 1647599881487,
+        "stop" : 1647599881574,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **Resource not found** to equal **Resource not found**",
+      "time" : {
+        "start" : 1647599881597,
+        "stop" : 1647599881597,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Resource not found"
+      }, {
+        "name" : "expected",
+        "value" : "Resource not found"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **404** to equal **404**",
+      "time" : {
+        "start" : 1647599881598,
+        "stop" : 1647599881598,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "404"
+      }, {
+        "name" : "expected",
+        "value" : "404"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Delete user request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b8827c06de0bdab.json",
+  "parameterValues" : [ ]
+}

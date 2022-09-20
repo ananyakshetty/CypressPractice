@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "`cy.request()` failed on:\n\nhttps://gorest.co.in/public/v1/users\n\nThe response we received from your web server was:\n\n  > 422: Unprocessable Entity\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://gorest.co.in/public/v1/users\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"Authorization\": \"Bearer e9a40345838120bf9905a61da59385d93f9de11fd8fec998fa3b1f8a71687f39\",\n  \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.5.2 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\",\n  \"content-type\": \"application/json\",\n  \"content-length\": 102\n}\nBody: {\"name\":\"Test Automation Cypres\",\"gender\":\"male\",\"email\":\"ananyacypress@gmalil.com\",\"status\":\"active\"}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 422 - Unprocessable Entity\nHeaders: {\n  \"server\": \"nginx\",\n  \"date\": \"Fri, 18 Mar 2022 10:38:18 GMT\",\n  \"content-type\": \"application/json; charset=utf-8\",\n  \"transfer-encoding\": \"chunked\",\n  \"connection\": \"keep-alive\",\n  \"x-frame-options\": \"SAMEORIGIN\",\n  \"x-xss-protection\": \"0\",\n  \"x-content-type-options\": \"nosniff\",\n  \"x-download-options\": \"noopen\",\n  \"x-permitted-cross-domain-policies\": \"none\",\n  \"referrer-policy\": \"strict-origin-when-cross-origin\",\n  \"x-ratelimit-limit\": \"90\",\n  \"x-ratelimit-remaining\": \"88\",\n  \"x-ratelimit-reset\": \"1\",\n  \"cache-control\": \"no-cache\",\n  \"x-request-id\": \"d1d65e29-7d71-4746-b2f9-e3b6cb52d72e\",\n  \"x-runtime\": \"0.016890\",\n  \"strict-transport-security\": \"max-age=63072000; includeSubDomains\",\n  \"vary\": \"Origin\"\n}\nBody: {\n  \"meta\": null,\n  \"data\": [\n    {\n      \"field\": \"email\",\n      \"message\": \"has already been taken\"\n    }\n  ]\n}\n\n\nhttps://on.cypress.io/request",
+      "children" : [ {
+        "name" : "create user test",
+        "uid" : "446191e67387b369",
+        "parentUid" : "aa1b9ca93680b17ec3e1ba24199bc43c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647599898291,
+          "stop" : 1647599898733,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa1b9ca93680b17ec3e1ba24199bc43c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

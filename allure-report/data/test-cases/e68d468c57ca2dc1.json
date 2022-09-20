@@ -1,0 +1,103 @@
+{
+  "uid" : "e68d468c57ca2dc1",
+  "name" : "POST",
+  "fullName" : "POST",
+  "historyId" : "1c17f51dc8a9b05ca0f9b00236b9c7a4",
+  "time" : {
+    "start" : 1647599886721,
+    "stop" : 1647599887081,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST 200 https://httpbin.org/post",
+      "time" : {
+        "start" : 1647599886753,
+        "stop" : 1647599887067,
+        "duration" : 314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ age: 26, name: ananya }** to deeply equal **{ name: ananya, age: 26 }**",
+      "time" : {
+        "start" : 1647599887080,
+        "stop" : 1647599887080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"age\": 26,\n  \"name\": \"ananya\"\n}"
+      }, {
+        "name" : "expected",
+        "value" : "{\n  \"name\": \"ananya\",\n  \"age\": 26\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (args, data, ...) }** to have property **json**",
+      "time" : {
+        "start" : 1647599887080,
+        "stop" : 1647599887080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"args\": {},\n  \"data\": \"{\\\"name\\\":\\\"ananya\\\",\\\"age\\\":26}\",\n  \"files\": {},\n  \"form\": {},\n  \"headers\": {\n    \"Accept\": \"*/*\",\n    \"Accept-Encoding\": \"gzip, deflate\",\n    \"Content-Length\": \"26\",\n    \"Content-Type\": \"application/json\",\n    \"Host\": \"httpbin.org\",\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.5.2 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36\",\n    \"X-Amzn-Trace-Id\": \"Root=1-6234610e-218c6ac50217f09d5fea5e4b\"\n  },\n  \"json\": {\n    \"age\": 26,\n    \"name\": \"ananya\"\n  },\n  \"origin\": \"103.87.94.233\",\n  \"url\": \"https://httpbin.org/post\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "HTTP Example"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e68d468c57ca2dc1.json",
+  "parameterValues" : [ ]
+}

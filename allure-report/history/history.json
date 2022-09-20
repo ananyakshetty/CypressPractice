@@ -1,0 +1,232 @@
+{
+  "0d067c36197873da346882a4c5bbfe23" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b8827c06de0bdab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599880672,
+        "stop" : 1647599881603,
+        "duration" : 931
+      }
+    } ]
+  },
+  "ed45677a71e018f1b2e4c84ef2832801" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b0d2225e578f41f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599854958,
+        "stop" : 1647599856536,
+        "duration" : 1578
+      }
+    } ]
+  },
+  "b3d5dcb3e73088058edd349b34ab1ab7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "446191e67387b369",
+      "status" : "failed",
+      "statusDetails" : "`cy.request()` failed on:\n\nhttps://gorest.co.in/public/v1/users\n\nThe response we received from your web server was:\n\n  > 422: Unprocessable Entity\n\nThis was considered a failure because the status code was not `2xx` or `3xx`.\n\nIf you do not want status codes to cause failures pass the option: `failOnStatusCode: false`\n\n-----------------------------------------------------------\n\nThe request we sent was:\n\nMethod: POST\nURL: https://gorest.co.in/public/v1/users\nHeaders: {\n  \"Connection\": \"keep-alive\",\n  \"Authorization\": \"Bearer e9a40345838120bf9905a61da59385d93f9de11fd8fec998fa3b1f8a71687f39\",\n  \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.5.2 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36\",\n  \"accept\": \"*/*\",\n  \"accept-encoding\": \"gzip, deflate\",\n  \"content-type\": \"application/json\",\n  \"content-length\": 102\n}\nBody: {\"name\":\"Test Automation Cypres\",\"gender\":\"male\",\"email\":\"ananyacypress@gmalil.com\",\"status\":\"active\"}\n\n-----------------------------------------------------------\n\nThe response we got was:\n\nStatus: 422 - Unprocessable Entity\nHeaders: {\n  \"server\": \"nginx\",\n  \"date\": \"Fri, 18 Mar 2022 10:38:18 GMT\",\n  \"content-type\": \"application/json; charset=utf-8\",\n  \"transfer-encoding\": \"chunked\",\n  \"connection\": \"keep-alive\",\n  \"x-frame-options\": \"SAMEORIGIN\",\n  \"x-xss-protection\": \"0\",\n  \"x-content-type-options\": \"nosniff\",\n  \"x-download-options\": \"noopen\",\n  \"x-permitted-cross-domain-policies\": \"none\",\n  \"referrer-policy\": \"strict-origin-when-cross-origin\",\n  \"x-ratelimit-limit\": \"90\",\n  \"x-ratelimit-remaining\": \"88\",\n  \"x-ratelimit-reset\": \"1\",\n  \"cache-control\": \"no-cache\",\n  \"x-request-id\": \"d1d65e29-7d71-4746-b2f9-e3b6cb52d72e\",\n  \"x-runtime\": \"0.016890\",\n  \"strict-transport-security\": \"max-age=63072000; includeSubDomains\",\n  \"vary\": \"Origin\"\n}\nBody: {\n  \"meta\": null,\n  \"data\": [\n    {\n      \"field\": \"email\",\n      \"message\": \"has already been taken\"\n    }\n  ]\n}\n\n\nhttps://on.cypress.io/request",
+      "time" : {
+        "start" : 1647599898291,
+        "stop" : 1647599898733,
+        "duration" : 442
+      }
+    } ]
+  },
+  "fd619a70c33b99100adfe9272d62c798" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f799a1602c7f0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599863852,
+        "stop" : 1647599870530,
+        "duration" : 6678
+      }
+    } ]
+  },
+  "1c17f51dc8a9b05ca0f9b00236b9c7a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e68d468c57ca2dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599886721,
+        "stop" : 1647599887081,
+        "duration" : 360
+      }
+    } ]
+  },
+  "12831d52c6b4fab3dbaf9c1bfff14531" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "92631752ee2f56cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599891111,
+        "stop" : 1647599891250,
+        "duration" : 139
+      }
+    } ]
+  },
+  "1615d45510e163e3359bed3fbab3bafe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e443baafb2b954",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599903894,
+        "stop" : 1647599906245,
+        "duration" : 2351
+      }
+    } ]
+  },
+  "b9206270cb94570f925951d584d8f63f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c85999202f6f2db0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599870680,
+        "stop" : 1647599872484,
+        "duration" : 1804
+      }
+    } ]
+  },
+  "811fa1e1b270808fbbe7d9f2fcdf056f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "11a9223b6e02c97c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1647599891266,
+        "stop" : 1647599891267,
+        "duration" : 1
+      }
+    } ]
+  },
+  "57648b62fee9751b402e62a7e9347b8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5182048eb9f6f41e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599872531,
+        "stop" : 1647599874303,
+        "duration" : 1772
+      }
+    } ]
+  },
+  "c8b213d7fc0831f6109ea568f2cb9a56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac9aae1640b7fe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599885053,
+        "stop" : 1647599886688,
+        "duration" : 1635
+      }
+    } ]
+  },
+  "0f5179f6249b862b9b5f0738c5e7e1c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb01e45816a7d566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647599902030,
+        "stop" : 1647599903853,
+        "duration" : 1823
+      }
+    } ]
+  }
+}

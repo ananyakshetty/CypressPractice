@@ -1,0 +1,57 @@
+{
+  "uid" : "11a9223b6e02c97c",
+  "name" : "get users by id",
+  "fullName" : "get users by id",
+  "historyId" : "811fa1e1b270808fbbe7d9f2fcdf056f",
+  "time" : {
+    "start" : 1647599891266,
+    "stop" : 1647599891267,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "Test ignored",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3804bbce071b45cd",
+      "name" : "video recording",
+      "source" : "3804bbce071b45cd.mp4",
+      "type" : "video/mp4",
+      "size" : 224346
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "get api user tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11a9223b6e02c97c.json",
+  "parameterValues" : [ ]
+}

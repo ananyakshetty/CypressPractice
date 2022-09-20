@@ -1,0 +1,467 @@
+{
+  "uid" : "932afa398a60a91",
+  "name" : "create user test",
+  "fullName" : "create user test",
+  "historyId" : "b3d5dcb3e73088058edd349b34ab1ab7",
+  "time" : {
+    "start" : 1647599894345,
+    "stop" : 1647599894785,
+    "duration" : 440
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "log FxdOTlXkch",
+      "time" : {
+        "start" : 1647599894376,
+        "stop" : 1647599894391,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "fixture (\"createuser\")",
+      "time" : {
+        "start" : 1647599894391,
+        "stop" : 1647599894432,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST 201 https://gorest.co.in/public/v1/users",
+      "time" : {
+        "start" : 1647599894435,
+        "stop" : 1647599894514,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log {\"meta\":null,\"data\":{\"id\":21861,\"name\":\"Test Automation\",\"email\":\"FxdOTlXkch@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}}",
+      "time" : {
+        "start" : 1647599894603,
+        "stop" : 1647599894609,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name**",
+      "time" : {
+        "start" : 1647599894610,
+        "stop" : 1647599894610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name** of **Test Automation**",
+      "time" : {
+        "start" : 1647599894610,
+        "stop" : 1647599894610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Test Automation"
+      }, {
+        "name" : "expected",
+        "value" : "Test Automation"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **email**",
+      "time" : {
+        "start" : 1647599894610,
+        "stop" : 1647599894610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **email** of **FxdOTlXkch@gmail.com**",
+      "time" : {
+        "start" : 1647599894610,
+        "stop" : 1647599894610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "FxdOTlXkch@gmail.com"
+      }, {
+        "name" : "expected",
+        "value" : "FxdOTlXkch@gmail.com"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **gender**",
+      "time" : {
+        "start" : 1647599894610,
+        "stop" : 1647599894610,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **gender** of **male**",
+      "time" : {
+        "start" : 1647599894611,
+        "stop" : 1647599894611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "male"
+      }, {
+        "name" : "expected",
+        "value" : "male"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **status**",
+      "time" : {
+        "start" : 1647599894611,
+        "stop" : 1647599894611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **status** of **active**",
+      "time" : {
+        "start" : 1647599894611,
+        "stop" : 1647599894611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "active"
+      }, {
+        "name" : "expected",
+        "value" : "active"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **201** to equal **201**",
+      "time" : {
+        "start" : 1647599894611,
+        "stop" : 1647599894611,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "201"
+      }, {
+        "name" : "expected",
+        "value" : "201"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log UserId: 21861",
+      "time" : {
+        "start" : 1647599894615,
+        "stop" : 1647599894622,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET 200 https://gorest.co.in/public/v1/users/21861",
+      "time" : {
+        "start" : 1647599894622,
+        "stop" : 1647599894705,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "log {\"meta\":null,\"data\":{\"id\":21861,\"name\":\"Test Automation\",\"email\":\"FxdOTlXkch@gmail.com\",\"gender\":\"male\",\"status\":\"active\"}}",
+      "time" : {
+        "start" : 1647599894763,
+        "stop" : 1647599894775,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **id**",
+      "time" : {
+        "start" : 1647599894776,
+        "stop" : 1647599894776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **id** of **21861**",
+      "time" : {
+        "start" : 1647599894776,
+        "stop" : 1647599894776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "21861"
+      }, {
+        "name" : "expected",
+        "value" : "21861"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name**",
+      "time" : {
+        "start" : 1647599894776,
+        "stop" : 1647599894776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **name** of **Test Automation**",
+      "time" : {
+        "start" : 1647599894776,
+        "stop" : 1647599894776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Test Automation"
+      }, {
+        "name" : "expected",
+        "value" : "Test Automation"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **status**",
+      "time" : {
+        "start" : 1647599894776,
+        "stop" : 1647599894776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"id\": 21861,\n  \"name\": \"Test Automation\",\n  \"email\": \"FxdOTlXkch@gmail.com\",\n  \"gender\": \"male\",\n  \"status\": \"active\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (id, name, ...) }** to have property **status** of **active**",
+      "time" : {
+        "start" : 1647599894777,
+        "stop" : 1647599894777,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "active"
+      }, {
+        "name" : "expected",
+        "value" : "active"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **200** to equal **200**",
+      "time" : {
+        "start" : 1647599894777,
+        "stop" : 1647599894777,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 23,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Post user request"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "932afa398a60a91.json",
+  "parameterValues" : [ ]
+}

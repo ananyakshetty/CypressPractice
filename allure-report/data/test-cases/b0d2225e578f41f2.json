@@ -1,0 +1,160 @@
+{
+  "uid" : "b0d2225e578f41f2",
+  "name" : "GET - read",
+  "fullName" : "GET - read",
+  "historyId" : "ed45677a71e018f1b2e4c84ef2832801",
+  "time" : {
+    "start" : 1647599854958,
+    "stop" : 1647599856536,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET 200 http://dummy.restapiexample.com/api/v1/employees",
+      "time" : {
+        "start" : 1647599855074,
+        "stop" : 1647599856437,
+        "duration" : 1363
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (body, headers, ...) }** to have property **status** of **200**",
+      "time" : {
+        "start" : 1647599856531,
+        "stop" : 1647599856532,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "200"
+      }, {
+        "name" : "expected",
+        "value" : "200"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (status, data, ...) }** not to be null",
+      "time" : {
+        "start" : 1647599856532,
+        "stop" : 1647599856532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"status\": \"success\",\n  \"data\": [\n    {\n      \"id\": 1,\n      \"employee_name\": \"Tiger Nixon\",\n      \"employee_salary\": 320800,\n      \"employee_age\": 61,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 2,\n      \"employee_name\": \"Garrett Winters\",\n      \"employee_salary\": 170750,\n      \"employee_age\": 63,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 3,\n      \"employee_name\": \"Ashton Cox\",\n      \"employee_salary\": 86000,\n      \"employee_age\": 66,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 4,\n      \"employee_name\": \"Cedric Kelly\",\n      \"employee_salary\": 433060,\n      \"employee_age\": 22,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 5,\n      \"employee_name\": \"Airi Satou\",\n      \"employee_salary\": 162700,\n      \"employee_age\": 33,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 6,\n      \"employee_name\": \"Brielle Williamson\",\n      \"employee_salary\": 372000,\n      \"employee_age\": 61,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 7,\n      \"employee_name\": \"Herrod Chandler\",\n      \"employee_salary\": 137500,\n      \"employee_age\": 59,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 8,\n      \"employee_name\": \"Rhona Davidson\",\n      \"employee_salary\": 327900,\n      \"employee_age\": 55,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 9,\n      \"employee_name\": \"Colleen Hurst\",\n      \"employee_salary\": 205500,\n      \"employee_age\": 39,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 10,\n      \"employee_name\": \"Sonya Frost\",\n      \"employee_salary\": 103600,\n      \"employee_age\": 23,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 11,\n      \"employee_name\": \"Jena Gaines\",\n      \"employee_salary\": 90560,\n      \"employee_age\": 30,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 12,\n      \"employee_name\": \"Quinn Flynn\",\n      \"employee_salary\": 342000,\n      \"employee_age\": 22,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 13,\n      \"employee_name\": \"Charde Marshall\",\n      \"employee_salary\": 470600,\n      \"employee_age\": 36,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 14,\n      \"employee_name\": \"Haley Kennedy\",\n      \"employee_salary\": 313500,\n      \"employee_age\": 43,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 15,\n      \"employee_name\": \"Tatyana Fitzpatrick\",\n      \"employee_salary\": 385750,\n      \"employee_age\": 19,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 16,\n      \"employee_name\": \"Michael Silva\",\n      \"employee_salary\": 198500,\n      \"employee_age\": 66,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 17,\n      \"employee_name\": \"Paul Byrd\",\n      \"employee_salary\": 725000,\n      \"employee_age\": 64,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 18,\n      \"employee_name\": \"Gloria Little\",\n      \"employee_salary\": 237500,\n      \"employee_age\": 59,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 19,\n      \"employee_name\": \"Bradley Greer\",\n      \"employee_salary\": 132000,\n      \"employee_age\": 41,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 20,\n      \"employee_name\": \"Dai Rios\",\n      \"employee_salary\": 217500,\n      \"employee_age\": 35,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 21,\n      \"employee_name\": \"Jenette Caldwell\",\n      \"employee_salary\": 345000,\n      \"employee_age\": 30,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 22,\n      \"employee_name\": \"Yuri Berry\",\n      \"employee_salary\": 675000,\n      \"employee_age\": 40,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 23,\n      \"employee_name\": \"Caesar Vance\",\n      \"employee_salary\": 106450,\n      \"employee_age\": 21,\n      \"profile_image\": \"\"\n    },\n    {\n      \"id\": 24,\n      \"employee_name\": \"Doris Wilder\",\n      \"employee_salary\": 85600,\n      \"employee_age\": 23,\n      \"profile_image\": \"\"\n    }\n  ],\n  \"message\": \"Successfully! All records has been fetched.\"\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **[ Array(24) ]** to have property **length**",
+      "time" : {
+        "start" : 1647599856532,
+        "stop" : 1647599856532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "[\n  {\n    \"id\": 1,\n    \"employee_name\": \"Tiger Nixon\",\n    \"employee_salary\": 320800,\n    \"employee_age\": 61,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 2,\n    \"employee_name\": \"Garrett Winters\",\n    \"employee_salary\": 170750,\n    \"employee_age\": 63,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 3,\n    \"employee_name\": \"Ashton Cox\",\n    \"employee_salary\": 86000,\n    \"employee_age\": 66,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 4,\n    \"employee_name\": \"Cedric Kelly\",\n    \"employee_salary\": 433060,\n    \"employee_age\": 22,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 5,\n    \"employee_name\": \"Airi Satou\",\n    \"employee_salary\": 162700,\n    \"employee_age\": 33,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 6,\n    \"employee_name\": \"Brielle Williamson\",\n    \"employee_salary\": 372000,\n    \"employee_age\": 61,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 7,\n    \"employee_name\": \"Herrod Chandler\",\n    \"employee_salary\": 137500,\n    \"employee_age\": 59,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 8,\n    \"employee_name\": \"Rhona Davidson\",\n    \"employee_salary\": 327900,\n    \"employee_age\": 55,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 9,\n    \"employee_name\": \"Colleen Hurst\",\n    \"employee_salary\": 205500,\n    \"employee_age\": 39,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 10,\n    \"employee_name\": \"Sonya Frost\",\n    \"employee_salary\": 103600,\n    \"employee_age\": 23,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 11,\n    \"employee_name\": \"Jena Gaines\",\n    \"employee_salary\": 90560,\n    \"employee_age\": 30,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 12,\n    \"employee_name\": \"Quinn Flynn\",\n    \"employee_salary\": 342000,\n    \"employee_age\": 22,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 13,\n    \"employee_name\": \"Charde Marshall\",\n    \"employee_salary\": 470600,\n    \"employee_age\": 36,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 14,\n    \"employee_name\": \"Haley Kennedy\",\n    \"employee_salary\": 313500,\n    \"employee_age\": 43,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 15,\n    \"employee_name\": \"Tatyana Fitzpatrick\",\n    \"employee_salary\": 385750,\n    \"employee_age\": 19,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 16,\n    \"employee_name\": \"Michael Silva\",\n    \"employee_salary\": 198500,\n    \"employee_age\": 66,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 17,\n    \"employee_name\": \"Paul Byrd\",\n    \"employee_salary\": 725000,\n    \"employee_age\": 64,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 18,\n    \"employee_name\": \"Gloria Little\",\n    \"employee_salary\": 237500,\n    \"employee_age\": 59,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 19,\n    \"employee_name\": \"Bradley Greer\",\n    \"employee_salary\": 132000,\n    \"employee_age\": 41,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 20,\n    \"employee_name\": \"Dai Rios\",\n    \"employee_salary\": 217500,\n    \"employee_age\": 35,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 21,\n    \"employee_name\": \"Jenette Caldwell\",\n    \"employee_salary\": 345000,\n    \"employee_age\": 30,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 22,\n    \"employee_name\": \"Yuri Berry\",\n    \"employee_salary\": 675000,\n    \"employee_age\": 40,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 23,\n    \"employee_name\": \"Caesar Vance\",\n    \"employee_salary\": 106450,\n    \"employee_age\": 21,\n    \"profile_image\": \"\"\n  },\n  {\n    \"id\": 24,\n    \"employee_name\": \"Doris Wilder\",\n    \"employee_salary\": 85600,\n    \"employee_age\": 23,\n    \"profile_image\": \"\"\n  }\n]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **[ Array(24) ]** to have a length of **24**",
+      "time" : {
+        "start" : 1647599856532,
+        "stop" : 1647599856532,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "24"
+      }, {
+        "name" : "expected",
+        "value" : "24"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "assert expected **{ Object (body, headers, ...) }** to have property **status**",
+      "time" : {
+        "start" : 1647599856533,
+        "stop" : 1647599856533,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "{\n  \"body\": {\n    \"status\": \"success\",\n    \"data\": [\n      {\n        \"id\": 1,\n        \"employee_name\": \"Tiger Nixon\",\n        \"employee_salary\": 320800,\n        \"employee_age\": 61,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 2,\n        \"employee_name\": \"Garrett Winters\",\n        \"employee_salary\": 170750,\n        \"employee_age\": 63,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 3,\n        \"employee_name\": \"Ashton Cox\",\n        \"employee_salary\": 86000,\n        \"employee_age\": 66,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 4,\n        \"employee_name\": \"Cedric Kelly\",\n        \"employee_salary\": 433060,\n        \"employee_age\": 22,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 5,\n        \"employee_name\": \"Airi Satou\",\n        \"employee_salary\": 162700,\n        \"employee_age\": 33,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 6,\n        \"employee_name\": \"Brielle Williamson\",\n        \"employee_salary\": 372000,\n        \"employee_age\": 61,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 7,\n        \"employee_name\": \"Herrod Chandler\",\n        \"employee_salary\": 137500,\n        \"employee_age\": 59,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 8,\n        \"employee_name\": \"Rhona Davidson\",\n        \"employee_salary\": 327900,\n        \"employee_age\": 55,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 9,\n        \"employee_name\": \"Colleen Hurst\",\n        \"employee_salary\": 205500,\n        \"employee_age\": 39,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 10,\n        \"employee_name\": \"Sonya Frost\",\n        \"employee_salary\": 103600,\n        \"employee_age\": 23,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 11,\n        \"employee_name\": \"Jena Gaines\",\n        \"employee_salary\": 90560,\n        \"employee_age\": 30,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 12,\n        \"employee_name\": \"Quinn Flynn\",\n        \"employee_salary\": 342000,\n        \"employee_age\": 22,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 13,\n        \"employee_name\": \"Charde Marshall\",\n        \"employee_salary\": 470600,\n        \"employee_age\": 36,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 14,\n        \"employee_name\": \"Haley Kennedy\",\n        \"employee_salary\": 313500,\n        \"employee_age\": 43,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 15,\n        \"employee_name\": \"Tatyana Fitzpatrick\",\n        \"employee_salary\": 385750,\n        \"employee_age\": 19,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 16,\n        \"employee_name\": \"Michael Silva\",\n        \"employee_salary\": 198500,\n        \"employee_age\": 66,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 17,\n        \"employee_name\": \"Paul Byrd\",\n        \"employee_salary\": 725000,\n        \"employee_age\": 64,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 18,\n        \"employee_name\": \"Gloria Little\",\n        \"employee_salary\": 237500,\n        \"employee_age\": 59,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 19,\n        \"employee_name\": \"Bradley Greer\",\n        \"employee_salary\": 132000,\n        \"employee_age\": 41,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 20,\n        \"employee_name\": \"Dai Rios\",\n        \"employee_salary\": 217500,\n        \"employee_age\": 35,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 21,\n        \"employee_name\": \"Jenette Caldwell\",\n        \"employee_salary\": 345000,\n        \"employee_age\": 30,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 22,\n        \"employee_name\": \"Yuri Berry\",\n        \"employee_salary\": 675000,\n        \"employee_age\": 40,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 23,\n        \"employee_name\": \"Caesar Vance\",\n        \"employee_salary\": 106450,\n        \"employee_age\": 21,\n        \"profile_image\": \"\"\n      },\n      {\n        \"id\": 24,\n        \"employee_name\": \"Doris Wilder\",\n        \"employee_salary\": 85600,\n        \"employee_age\": 23,\n        \"profile_image\": \"\"\n      }\n    ],\n    \"message\": \"Successfully! All records has been fetched.\"\n  },\n  \"headers\": {\n    \"cache-control\": \"no-cache, private, max-age=31536000\",\n    \"content-encoding\": \"gzip\",\n    \"content-type\": \"application/json\",\n    \"date\": \"Fri, 18 Mar 2022 10:37:36 GMT\",\n    \"display\": \"staticcontent_sol\",\n    \"expires\": \"Sat, 18 Mar 2023 10:37:35 GMT\",\n    \"host-header\": \"c2hhcmVkLmJsdWVob3N0LmNvbQ==\",\n    \"referrer-policy\": \"\",\n    \"response\": \"200\",\n    \"server\": \"nginx\",\n    \"vary\": \"Accept-Encoding, Accept-Encoding,User-Agent,Origin\",\n    \"x-ezoic-cdn\": \"Miss\",\n    \"x-middleton-display\": \"staticcontent_sol\",\n    \"x-middleton-response\": \"200\",\n    \"x-origin-cache-control\": \"no-cache, private\",\n    \"x-ratelimit-limit\": \"60\",\n    \"x-ratelimit-remaining\": \"58\",\n    \"x-server-cache\": \"false\",\n    \"x-sol\": \"pub_site\",\n    \"content-length\": \"631\"\n  },\n  \"status\": 200,\n  \"statusText\": \"OK\",\n  \"isOkStatusCode\": true,\n  \"requestHeaders\": {\n    \"Connection\": \"keep-alive\",\n    \"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Cypress/9.5.2 Chrome/94.0.4606.81 Electron/15.3.4 Safari/537.36\",\n    \"accept\": \"*/*\",\n    \"accept-encoding\": \"gzip, deflate\"\n  },\n  \"duration\": 1311,\n  \"allRequestResponses\": [\n    {\n      \"Request Body\": null,\n      \"Request URL\": \"http://dummy.restapiexample.com/api/v1/employees\",\n      \"Response Body\": \"{\\\"status\\\":\\\"success\\\",\\\"data\\\":[{\\\"id\\\":1,\\\"employee_name\\\":\\\"Tiger Nixon\\\",\\\"employee_salary\\\":320800,\\\"employee_age\\\":61,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":2,\\\"employee_name\\\":\\\"Garrett Winters\\\",\\\"employee_salary\\\":170750,\\\"employee_age\\\":63,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":3,\\\"employee_name\\\":\\\"Ashton Cox\\\",\\\"employee_salary\\\":86000,\\\"employee_age\\\":66,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":4,\\\"employee_name\\\":\\\"Cedric Kelly\\\",\\\"employee_salary\\\":433060,\\\"employee_age\\\":22,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":5,\\\"employee_name\\\":\\\"Airi Satou\\\",\\\"employee_salary\\\":162700,\\\"employee_age\\\":33,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":6,\\\"employee_name\\\":\\\"Brielle Williamson\\\",\\\"employee_salary\\\":372000,\\\"employee_age\\\":61,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":7,\\\"employee_name\\\":\\\"Herrod Chandler\\\",\\\"employee_salary\\\":137500,\\\"employee_age\\\":59,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":8,\\\"employee_name\\\":\\\"Rhona Davidson\\\",\\\"employee_salary\\\":327900,\\\"employee_age\\\":55,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":9,\\\"employee_name\\\":\\\"Colleen Hurst\\\",\\\"employee_salary\\\":205500,\\\"employee_age\\\":39,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":10,\\\"employee_name\\\":\\\"Sonya Frost\\\",\\\"employee_salary\\\":103600,\\\"employee_age\\\":23,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":11,\\\"employee_name\\\":\\\"Jena Gaines\\\",\\\"employee_salary\\\":90560,\\\"employee_age\\\":30,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":12,\\\"employee_name\\\":\\\"Quinn Flynn\\\",\\\"employee_salary\\\":342000,\\\"employee_age\\\":22,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":13,\\\"employee_name\\\":\\\"Charde Marshall\\\",\\\"employee_salary\\\":470600,\\\"employee_age\\\":36,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":14,\\\"employee_name\\\":\\\"Haley Kennedy\\\",\\\"employee_salary\\\":313500,\\\"employee_age\\\":43,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":15,\\\"employee_name\\\":\\\"Tatyana Fitzpatrick\\\",\\\"employee_salary\\\":385750,\\\"employee_age\\\":19,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":16,\\\"employee_name\\\":\\\"Michael Silva\\\",\\\"employee_salary\\\":198500,\\\"employee_age\\\":66,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":17,\\\"employee_name\\\":\\\"Paul Byrd\\\",\\\"employee_salary\\\":725000,\\\"employee_age\\\":64,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":18,\\\"employee_name\\\":\\\"Gloria Little\\\",\\\"employee_salary\\\":237500,\\\"employee_age\\\":59,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":19,\\\"employee_name\\\":\\\"Bradley Greer\\\",\\\"employee_salary\\\":132000,\\\"employee_age\\\":41,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":20,\\\"employee_name\\\":\\\"Dai Rios\\\",\\\"employee_salary\\\":217500,\\\"employee_age\\\":35,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":21,\\\"employee_name\\\":\\\"Jenette Caldwell\\\",\\\"employee_salary\\\":345000,\\\"employee_age\\\":30,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":22,\\\"employee_name\\\":\\\"Yuri Berry\\\",\\\"employee_salary\\\":675000,\\\"employee_age\\\":40,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":23,\\\"employee_name\\\":\\\"Caesar Vance\\\",\\\"employee_salary\\\":106450,\\\"employee_age\\\":21,\\\"profile_image\\\":\\\"\\\"},{\\\"id\\\":24,\\\"employee_name\\\":\\\"Doris Wilder\\\",\\\"employee_salary\\\":85600,\\\"employee_age\\\":23,\\\"profile_image\\\":\\\"\\\"}],\\\"message\\\":\\\"Successfully! All records has been fetched.\\\"}\",\n      \"Response Status\": 200\n    }\n  ]\n}"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "API Testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0d2225e578f41f2.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,121 @@
+[ {
+  "uid" : "11a9223b6e02c97c",
+  "name" : "get users by id",
+  "time" : {
+    "start" : 1647599891266,
+    "stop" : 1647599891267,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "446191e67387b369",
+  "name" : "create user test",
+  "time" : {
+    "start" : 1647599898291,
+    "stop" : 1647599898733,
+    "duration" : 442
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb01e45816a7d566",
+  "name" : "Get Weather Information for city",
+  "time" : {
+    "start" : 1647599902030,
+    "stop" : 1647599903853,
+    "duration" : 1823
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85999202f6f2db0",
+  "name" : "mocking with intercept test with static response",
+  "time" : {
+    "start" : 1647599870680,
+    "stop" : 1647599872484,
+    "duration" : 1804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5182048eb9f6f41e",
+  "name" : "mocking with intercept test with dynamic fixture",
+  "time" : {
+    "start" : 1647599872531,
+    "stop" : 1647599874303,
+    "duration" : 1772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9aae1640b7fe6",
+  "name" : "GET",
+  "time" : {
+    "start" : 1647599885053,
+    "stop" : 1647599886688,
+    "duration" : 1635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0d2225e578f41f2",
+  "name" : "GET - read",
+  "time" : {
+    "start" : 1647599854958,
+    "stop" : 1647599856536,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f799a1602c7f0f9",
+  "name" : "Test Api with simple Intercept",
+  "time" : {
+    "start" : 1647599863852,
+    "stop" : 1647599870530,
+    "duration" : 6678
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92631752ee2f56cc",
+  "name" : "get users",
+  "time" : {
+    "start" : 1647599891111,
+    "stop" : 1647599891250,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e443baafb2b954",
+  "name" : "Get Weather Information for all cities",
+  "time" : {
+    "start" : 1647599903894,
+    "stop" : 1647599906245,
+    "duration" : 2351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b8827c06de0bdab",
+  "name" : "Delete user test",
+  "time" : {
+    "start" : 1647599880672,
+    "stop" : 1647599881603,
+    "duration" : 931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e68d468c57ca2dc1",
+  "name" : "POST",
+  "time" : {
+    "start" : 1647599886721,
+    "stop" : 1647599887081,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
